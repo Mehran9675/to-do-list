@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #e8e3de;
+  padding: 1.5rem;
+  border-bottom: 1px solid #d2d1d0;
+  input {
+    all: unset;
+    font-size: 2rem;
+    margin-right: auto;
+    width: 80%;
+
+    &::placeholder {
+      color: gray;
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+}

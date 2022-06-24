@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin-top: auto;
+  background-color: #e8e3de;
+  font-size: 1.2rem;
+  b {
+    margin-right: 0.5rem;
+  }
+  div {
+    display: flex;
+    flex-wrap: nowrap;
+    span {
+      margin: 0 0.5rem;
+      cursor: pointer;
+      &[data-active="true"] {
+        font-weight: 700;
+        text-shadow: 0 0 5px gray;
+      }
+    }
+  }
+  button {
+    all: unset;
+    background-color: #bdb7b1;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+}

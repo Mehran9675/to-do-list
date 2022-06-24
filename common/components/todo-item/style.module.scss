@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 1.5rem;
+
+  input[type="checkbox"] {
+    border: 1px solid gray;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+  }
+
+  input[type="text"],
+  button,
+  span {
+    all: unset;
+    font-size: 1.4rem;
+    user-select: none;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+
+  form,
+  span {
+    width: 70%;
+    margin: 0 auto 0 0;
+    padding: 0 1rem;
+  }
+
+  button {
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+}
